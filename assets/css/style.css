@@ -50,6 +50,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
 
 .iguanas {
@@ -76,6 +77,8 @@ h2 {
     place-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .iconos {
