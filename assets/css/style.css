@@ -4,11 +4,23 @@ body {
     margin: 0px;
 }
 
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
 .textTitle {
     width: 100%;
-    height: 50px;
+    height: 90px;
+    display: grid;
+    align-items: center;
     text-align: center;
-    font-size: 15px;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
 }
 .headerIguana {
     width: 100%;
@@ -17,16 +29,21 @@ body {
 .infoIguana {
     display: flex;
     width: 100%;
-    padding: 30px;
+    padding: 0px;
     justify-content: center;
+    margin: 20px 0px 20px 0px;
 }
 
 .textIguana {
     width: 40%;
+    display: grid;
+    place-items: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .imgIguana {
     width: 400px;
+    margin-left: 106px;
 }
 
 .galeriaIguana {
@@ -41,12 +58,37 @@ body {
 }
 
 .piePagina {
-    background-color: rgb(71, 61, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
+    background-color: rgb(33,29,22);
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    display: grid;
+    place-items: center;
     width: 100%;
-    height: 30px;
+    height: 80px;
     margin: 0px;
-  }
-  
+}
+
+.iconosText {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(33,29,22);
+    display: grid;
+    place-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.iconos {
+    width: 60%;
+    text-align: center;
+}
+
+.iconOjo {
+    float: left;
+}
+.iconPaz {
+    display:inline-block
+}
+.iconColor {
+    float: right;
+}
